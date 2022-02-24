@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      ul{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 3px solid blue;
+    @media only screen and (min-width: 992px) and (max-width: 1199px)
+   
+      }
+      li{
+    margin-right: 15px;
+    display: inline;
+    color: #ababab;
+    padding: 0 20px;
+    font-size:30pt;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li:hover,
+li a:hover{
+    background-color: white;
+    color: blue;
+}
+h1{
+    text-align: justify;
+    font-family: times, serif; 
+    font-size:30pt;
+    font-style:italic;
+    color: red;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p{
+    text-align: justify;
+    font-family: times, serif; 
+    font-size:14pt;
+    font-style:normal;
+    color: black; 
+  }
+  h3{
+    text-align: center;
+    font-family: times, serif; 
+    font-size:16pt;
+    font-style:normal;
+    color: black;
+  }
+  .images{
+display: flex;
+justify-content: space-around;
+  } 
+  img{
+    width: 100px;
+  } 
+  form{
+    font-family: times, serif; 
+    font-size:18pt;
+    font-style:italic;
+    color: black;
+    text-align: center;
+  }
+  input{
+    width: 400px;
+    height: 30px;
+  }
+  label{
+    text-align: justify;
+    font-family: times, serif; 
+    font-size:22pt;
+    font-style:italic;
+    color: black;
+  }
+  footer{
+    text-align: center;
+    text-align: justify;
+    font-family: times, serif; 
+    font-size:18pt;
+    font-style:italic;
+    color: black;
+    background-color: #ababab;
+    margin-top: 10px;
+  }
+  a{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+    </style>
+</head>
+<body>
+  <nav>
+  <ul>
+      <li> <a href="/"> Accueil </a> </li>
+      <li> <a href="/Nos-services"> Nos services </a> </li>
+      <li> <a href="/Contactez-Nous"> Contactez-Nous </a> </li>
+  </ul> 
+</nav>
+<div>
+<h1>Contactez l'Equipe Ecoles</h1> 
+</div>
+<div class="images">
+<div class="image"> 
+  <img src="https://www.ecoles.com.tn/sites/default/files/image/icon/address_0.png"/> 
+  <p> Rue Mohamed Shim Rbat <br> Monastir-5000 Tunisie</p>
+</div>
+<div class="image">
+  <img src="https://www.ecoles.com.tn/sites/default/files/image/icon/email_0.png"/>
+  <a href="mailto:contact@ecoles.com.tn">contact@ecoles.com.tn</a>
+</div>
+<div class="image">
+  <img src="https://www.ecoles.com.tn/sites/default/files/image/icon/phone_0.png"/>
+  <p>Nos Contacts </p>
+  <p>(+216) 73 449 596</p>
+  <p>(+216) 95 999 095</p>
+</div>
+</div>
+<div>
+  <h1> Contactez l'annuaire </h1>
+  <form>
+   <label> Nom </label> <br>
+   <input type="text" placeholder="Votre Nom" /> <br>
+   <label> Email </label> <br>
+   <input type="text" placeholder="Votre Email" /> <br>
+   <label> Message </label> <br>
+   <input type="text" placeholder="Votre Message" /> <br>
+   <button type="submit"> Envoyez </button>
+  </form>
+</div>
+<div>
+  <footer>
+    <h3> Contact Plateforme</h3>
+      <h3>Rue Mohamed Shim, Rbat Monastir 5000 Tunisie</h3> <br>
+      <a href="tel:+216 95 999 095">+216 95 999 095</a> <br>
+      <a href="mailto:contact@ecoles.com.tn">contact@ecoles.com.tn</a>
+  </footer>
+</div>
+</body>
+</html>
